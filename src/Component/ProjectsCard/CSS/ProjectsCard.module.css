@@ -1,0 +1,54 @@
+.ProjectsCard {
+  width: calc(30 * 1em);
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.8em;
+  cursor: pointer;
+  background-color: #2e303c;
+  min-height: 150px;
+}
+
+.ProjectsCard_Header h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.ProjectsCard_Header h3 a:hover {
+  text-decoration: underline;
+}
+
+.ProjectsCard_Info p {
+  margin: 0.5em 0;
+  color: grey;
+}
+
+.ProjectsCard_Tech {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProjectsCard_Tech p {
+  color: var(--mainColor);
+}
+
+.ProjectsCard_Icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ProjectsCard_Icon {
+  width: 2em;
+  object-fit: contain;
+  overflow: hidden;
+  margin: 0 0.2em;
+}
+
+.ProjectsCard_Icon img {
+  width: 100%;
+}

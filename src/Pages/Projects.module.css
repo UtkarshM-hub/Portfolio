@@ -1,0 +1,58 @@
+.Projects_Head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2em 0;
+}
+
+.Projects_ImageContainer {
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.Projects_ImageContainer img {
+  width: 100%;
+}
+
+.Projects_Info {
+  width: 70%;
+  padding: 0 2em;
+}
+
+.Projects_Info h1 {
+  color: white;
+}
+
+.Projects_Info p {
+  color: grey;
+}
+
+.Projects_Container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+  margin: 2em 0;
+}
+
+.Projects_Last {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.Projects_More {
+  border-radius: 12px;
+  padding: 0.8em 1.2em;
+  border: none;
+  background-color: var(--mainColor);
+}
+
+.Projects_More a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}

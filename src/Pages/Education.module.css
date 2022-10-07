@@ -1,0 +1,75 @@
+.Education_ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2em 0;
+}
+
+.Education_ImageSection {
+  width: 25vw;
+  overflow: hidden;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Education_ImageSection img {
+  width: 100%;
+}
+
+.Education_Info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
+}
+
+.Education_Info h1 {
+  color: white;
+}
+
+.Education_Info p {
+  color: grey;
+}
+
+.Education_IconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Education_Icon {
+  width: 3em;
+  object-fit: contain;
+  margin: 1em 1em 0 0;
+  cursor: pointer;
+}
+
+.Education_Icon img {
+  width: 100%;
+}
+
+.Education_Certificates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2em 0 0 0;
+}
+
+.Education_Certificates h1 {
+  color: white;
+  margin: 0 auto;
+}
+.Education_CertificatesContainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  margin: 2em auto;
+}
