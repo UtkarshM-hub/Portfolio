@@ -1,0 +1,121 @@
+.Home_First {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2em 0;
+}
+
+.Home_Intro h1 {
+  color: white;
+}
+
+.Home_Intro p {
+  margin: 1.5em 0;
+  color: rgb(126, 126, 126);
+  width: 40vw;
+  font-size: 1.2em;
+}
+
+.Home_Image {
+  width: 35vw;
+  overflow: hidden;
+}
+
+.Home_Image img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.Home_Circle {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  background-color: white;
+  margin: 0 0.8em 0 0;
+  cursor: pointer;
+}
+
+.Home_Circle img {
+  width: 100%;
+}
+
+.Home_Links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Home_Header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.Home_Header h1 {
+  color: var(--mainColor);
+}
+
+.Home_Second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76vh;
+  margin: 2em 0;
+}
+
+.Home_ImageSection {
+  width: 40vw;
+  object-fit: contain;
+}
+
+.Home_ImageSection img {
+  width: 100%;
+  height: 100%;
+}
+
+.Home_Icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Home_Info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.Home_Info h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.Home_IconItem {
+  width: 3em;
+  margin: 1.5em 1.5em 0;
+}
+
+.Home_UnorderedList li {
+  list-style-type: none;
+  margin: 1em;
+  color: rgb(138, 138, 138);
+}
+
+.Home_UnorderedList li::before {
+  content: "🌠";
+  margin: 0 0.5em;
+}

@@ -1,0 +1,63 @@
+.CertificateCard {
+  width: 20vw;
+  height: calc(1em * 20);
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.CertificateCard_ImageContainer {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0.5em;
+  position: relative;
+}
+
+.CertificateCard_ImageContainer img {
+  width: 100%;
+}
+
+.CertificateCard_Info {
+  background-color: #2e303c;
+  padding: 1em 0.5em;
+  height: 50%;
+  width: 100%;
+}
+
+.CertificateCard_Info h3,
+.CertificateCard_Info p {
+  color: white;
+}
+
+.CertificateCard_Info p {
+  margin: 0.5em 0;
+}
+
+.CertificateCard_overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.763);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  position: absolute;
+  transform: translateY(-500px);
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.CertificateCard:hover .CertificateCard_overlay {
+  transform: translateY(0);
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+
+.NavBar {
+  width: 100%;
+  background-color: var(--mainBG);
+  padding: 0.5em 0;
+  border-bottom: 1.2px solid grey;
+}
+
+.NavBar_inner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavBar_Text {
+  color: white;
+  font-size: 2em;
+  font-family: "Comforter Brush", cursive;
+}
+
+.NavBar_Items {
+  color: rgb(127, 126, 126);
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+.NavBar_Items:hover {
+  color: rgb(255, 255, 255);
+}
+.active {
+  color: #4fc3b3 !important;
+  font-weight: bold;
+}

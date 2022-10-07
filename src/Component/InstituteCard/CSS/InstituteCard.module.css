@@ -1,0 +1,41 @@
+.InstituteCard {
+  width: 80%;
+  border-radius: 12px;
+  background-color: var(--cardBG);
+  margin: 2em auto;
+  overflow: hidden;
+}
+
+.InstituteCard_Heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em;
+}
+
+.InstituteCard_Info {
+  background-color: #82d1c9;
+  padding: 0.5em 1.5em;
+}
+
+.InstituteCard_Info li {
+  list-style-type: none;
+  margin: 0.5em 0;
+}
+
+.InstituteCard_Info li::before {
+  content: "🌠";
+  margin: 0.5em 0.5em 0.5em 0;
+}
+
+.InstituteCard_VisitBtn {
+  color: white;
+  font-size: 1.02em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  margin: 1em 0 0 0;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--mainBG);
+  align-self: flex-end;
+}

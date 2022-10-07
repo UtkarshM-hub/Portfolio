@@ -1,0 +1,73 @@
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: 2em 0;
+}
+
+.Contact_Image {
+  height: 450px;
+  overflow: hidden;
+  width: 53%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  /* border-radius: 50%;*/
+}
+
+.Contact_Image img {
+  width: 100%;
+  height: 100%;
+}
+
+.Contact_Info {
+  width: 40%;
+}
+
+.Contact_Info h1 {
+  color: white;
+}
+
+.Contact_Info p {
+  color: grey;
+  margin: 1em 0;
+}
+
+.Contact_Circle {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  background-color: white;
+  margin: 0 0.8em 0 0;
+  cursor: pointer;
+}
+
+.Contact_Circle img {
+  width: 100%;
+}
+
+.Contact_Links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Contact_Email h3 {
+  /* color: var(--mainColor); */
+  color: white;
+  margin: 0 0 1em 0;
+}
+
+.Contact_Email h3 span {
+  color: var(--mainColor);
+  /* color: white; */
+  margin: 0 0.5em;
+}

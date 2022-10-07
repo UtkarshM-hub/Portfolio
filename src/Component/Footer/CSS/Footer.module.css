@@ -1,0 +1,15 @@
+footer {
+  border-top: 1.2px solid grey;
+  width: 100%;
+  background-color: var(--mainBG);
+}
+
+.Footer_middle {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
