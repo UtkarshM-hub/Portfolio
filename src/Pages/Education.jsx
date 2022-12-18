@@ -17,6 +17,9 @@ const Education = () => {
     "Apart from academics I was the sergeant of my NCC batch 2017-18 and led my troop in various events like independance day parade and republic day parade",
     "I have also participated in some sports competitions organized by the government",
   ];
+  const thirdInfo = [
+    "I am a member of Technical team of ACM club"
+  ];
 
   const courseData = [
     {
@@ -67,6 +70,13 @@ const Education = () => {
         </div>
       </div>
       <div className={classes.Education_EducationInstitutes}>
+      <InstituteCard
+          name="Walchand College of Engineering Sangli"
+          course="BTech in Information Technology"
+          duration="2012-2025"
+          info={thirdInfo}
+          link="http://www.walchandsangli.ac.in/"
+        />
         <InstituteCard
           name="Institute of petrochemical engineering Lonere"
           course="Diploma in Computer Engineering"
