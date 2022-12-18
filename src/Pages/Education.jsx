@@ -73,7 +73,7 @@ const Education = () => {
       <InstituteCard
           name="Walchand College of Engineering Sangli"
           course="BTech in Information Technology"
-          duration="2012-2025"
+          duration="2022-2025"
           info={thirdInfo}
           link="http://www.walchandsangli.ac.in/"
         />
