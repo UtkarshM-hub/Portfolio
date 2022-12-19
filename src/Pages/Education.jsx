@@ -18,7 +18,8 @@ const Education = () => {
     "I have also participated in some sports competitions organized by the government",
   ];
   const thirdInfo = [
-    "I am a member of Technical team of ACM club"
+    "I am Assistant Developer at Walchand Linux User's Group",
+    "I am a member of Technical team at ACM club",
   ];
 
   const courseData = [
